@@ -1,6 +1,7 @@
 package magzine
 
 // Article is ...
-func Article() string {
-	return "Dependency"
+type Article struct {
+	Title   string
+	Magzine string
 }
